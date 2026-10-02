@@ -1,12 +1,7 @@
-# Age-Group-Detection
-Age group classification (Child / Young / Middle-Aged / Senior) comparing HOG+SVM, HOG+MLP and a fine-tuned ResNet18, with MTCNN face detection for in-the-wild images.
-
-
 # Age Group Detection: HOG+SVM vs HOG+MLP vs ResNet18
 
 Classify faces into four age groups (**Child, Young, Middle-Aged, Senior**) and compare classical computer vision pipelines against a deep learning model. The best model (fine-tuned ResNet18) is combined with MTCNN face detection to run on unconstrained, real-world photos.
 
-Built for the IN3060 Computer Vision coursework.
 
 
 
