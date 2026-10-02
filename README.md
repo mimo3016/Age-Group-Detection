@@ -58,6 +58,9 @@ Evaluated on the held-out test set (850 images):
 
 
 
+![AgeDetection demo](images/Age_detection.png)
+
+
 **Key findings**
 - ResNet18 was selected as the best model by **weighted F1 (0.411)**.
 - HOG + MLP matches the CNN's accuracy but **collapses onto the majority "Young" class**, giving the lowest F1, so accuracy alone is misleading on this imbalanced data.
